@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    padding: 1rem;
+}
+.flex {
+    display: flex;
+    color: white;
+    background-color: rgb(228, 109, 126);
+    background-image: url(./bg-intro-desktop.png) ;
+    padding: 3rem;
+}
+.btn-card-top{
+    background-color: rgb(161, 84, 233);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: rgb(161, 84, 233);
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.btn-card-bottom{
+    background-color: rgb(80, 227, 158);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: rgb(80, 227, 158);
+    border-radius: 0.5rem;
+    width: 100%;
+    color: white;
+}
+input{
+    width: 95%;
+    height: 35px;
+    border: 1px solid rgb(184, 189, 189) ;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+}
+.card-body{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.text{
+    width: 50%;
+}
+.form{
+    width: 50%;
+}
+form{
+    padding: 2rem;
+}
+.small{
+    color: black;
+}
+.text-sub{
+    width: 70%;
+    padding: 7rem;
+}
+.card-box{
+    width: 75%;
+    /* padding: 5rem; */
+}  
+input:focus { 
+    outline: none !important;
+    /* border-color: #8f9294; */
+    border: 1px solid rgb(134, 137, 137) ;
+    /* box-shadow: 0 0 10px #8f9294; */
+}
+@media screen and (max-width: 500px) {
+    .flex {
+      flex-direction: column;
+    }
+  }
